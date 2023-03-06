@@ -1,5 +1,5 @@
 import turtle as tl
-import palm
+import palm  # Подключение модуля из своего пакета
 
 
 def draw_palm(size, angle, n_leaves):
@@ -11,7 +11,5 @@ def draw_palm(size, angle, n_leaves):
     tl.penup()
     tl.goto(40,-320)
     tl.pendown()
-
-    palm.palm(size, angle, n_leaves)  # !!! ИСПОЛЬЗОВАН МОДУЛЬ !!!
-
+    palm.palm(size, angle, n_leaves)  # Использована функция из модуля
     tl.done()
