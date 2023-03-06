@@ -1,5 +1,5 @@
 import turtle as tl
-from . import trunk_left_right  # Подключение модуля из своего пакета
+import trunk_left_right  # Подключение модуля на одном уровне
 
 
 def trunk(size):
