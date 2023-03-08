@@ -1,7 +1,7 @@
 import turtle as tl
-from components.trunk_pack import trunk  # Подключение модуля на два уровня глубже
-from components import coconuts  # Подключение модуля на уровень глубже
-from components.leaves_pack import leaves  # Подключение модуля на два уровня глубже
+from .components.trunk_pack import trunk  # Подключение модуля на два уровня глубже
+from .components import coconuts  # Подключение модуля на уровень глубже
+from .components.leaves_pack import leaves  # Подключение модуля на два уровня глубже
 
 
 def palm(size, angle, n_leaves):

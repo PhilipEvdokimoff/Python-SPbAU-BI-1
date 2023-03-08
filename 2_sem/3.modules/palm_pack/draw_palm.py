@@ -1,5 +1,5 @@
 import turtle as tl
-import palm  # Подключение модуля на одном уровне
+from . import palm  # Подключение модуля на одном уровне
 
 
 def draw_palm(size, angle, n_leaves):

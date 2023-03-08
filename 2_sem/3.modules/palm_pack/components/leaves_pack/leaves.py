@@ -1,5 +1,5 @@
 import turtle as tl
-import leaf_up_down  # Подключение модуля на одном уровне
+from . import leaf_up_down  # Подключение модуля на одном уровне
 
 
 def leaves(size, angle, n_leaves):
