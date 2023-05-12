@@ -9,9 +9,16 @@
     <title>{% block title %}{% endblock %}</title>
 </head>
 <body>
-    <h1>Это сайт @_@ какой-то</h1>
-    <header>{% block header %}{% endblock %}</header>
-    {% block content %}{% endblock %}
-    <footer>{% block footer %}{% endblock %}</footer>
+    <header>
+        <h1>Это <u>учебный</u> сайт, don't judge!</h1>
+        {% block header %}{% endblock %}
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        {% block footer %}{% endblock %}
+{#        <a href="https://t.me/piliff_e" style="background-color: #6d4c41; color: white; text-align: center;">Telegram</a>#}
+    </footer>
 </body>
 </html>

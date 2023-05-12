@@ -1,11 +1,13 @@
 {% extends "base.html" %}
 
+{% block title %}Мои Jupiter Notebooks{% endblock %}
+
 {% block header %}
     <a href="/index" style="font-size: 20px">Главная</a>
 {% endblock %}
 
 {% block content %}
-    <h2>Здесь собраны (почти) все мои проекты в Jupiter Notebooks.</h2>
+    <h2>Здесь собраны все мои проекты в Jupiter Notebooks.</h2>
     <h3>В верхней и нижней частях страницы каждого блокнота есть простенькая навигация.</h3>
     <p>Первый семестр:</p>
     <ul>
@@ -20,6 +22,7 @@
     <ul>
         <li><a href="/jupiter/2.1.gauss_method">1. Метод Гаусса решения СЛУ. Обычная и векторная формы</a>;</li>
         <li><a href="/jupiter/2.2.benchmarks">2. Замеры с MyPy, Cython и Numba</a>;</li>
+        <li><a href="/jupiter/2.4.monte_carlo">4. Метод Монте-Карло вычисления определённых интегралов</a>;</li>
         <li><a href="/jupiter/2.6.article_review">6. Мысли о тексте "Against an Increasingly User-Hostile Web"</a>.</li>
     </ul>
 {% endblock %}
