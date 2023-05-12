@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block header %}
+    <a href="/index" style="font-size: 20px">Главная</a>
+{% endblock %}
+
+{% block content %}
+    <h2>Здесь собраны (почти) все мои проекты в Jupiter Notebooks.</h2>
+    <h3>В верхней и нижней частях страницы каждого блокнота есть простенькая навигация.</h3>
+    <p>Первый семестр:</p>
+    <ul>
+        <li><a href="/jupiter/1.4.my_ln">4. Вычисление натурального логарифма через ряд Тейлора</a>;</li>
+        <li><a href="/jupiter/1.7.euclid">7. Алгоритм Евклида</a>;</li>
+        <li><a href="/jupiter/1.8.extended_euclid">8. Расширенный алгоритм Евклида</a>;</li>
+        <li><a href="/jupiter/1.9.primality_test">9. Проверка числа на простоту. Тест Соловея-Штрассена</a>;</li>
+        <li><a href="/jupiter/1.10.universe2d">10. Universe2D</a>;</li>
+        <li><a href="/jupiter/1.13.fibonacci">13. Числа Фибоначчи. Реализация через класс. Бесконечная печать</a>.</li>
+    </ul>
+    <p>Второй семестр:</p>
+    <ul>
+        <li><a href="/jupiter/2.1.gauss_method">1. Метод Гаусса решения СЛУ. Обычная и векторная формы</a>;</li>
+        <li><a href="/jupiter/2.2.benchmarks">2. Замеры с MyPy, Cython и Numba</a>;</li>
+        <li><a href="/jupiter/2.6.article_review">6. Мысли о тексте "Against an Increasingly User-Hostile Web"</a>.</li>
+    </ul>
+{% endblock %}
